@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Discord</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" xintegrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Adding Montserrat font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Updated background to a Spotify-like green at the top to black at the bottom */
+            background: linear-gradient(to bottom, #1DB954, #000000);
+            background-attachment: fixed; /* Ensures the background doesn't scroll with the content */
+            display: flex;
+            justify-content: center; /* Centers content horizontally */
+            align-items: center; /* Keeps it vertically centered */
+            min-height: 100vh;
+            color: #e2e8f0;
+        }
+        .montserrat-bold {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+<!-- New flex container for the four boxes with a gap for spacing -->
+<!-- The `items-center` class aligns the items vertically by their center. -->
+<div class="flex flex-row gap-8 p-4 items-center">
+    
+    <!-- Combined container for Bwah VR box and the new circular button -->
+    <!-- The `self-end` class overrides the `items-center` on the parent, aligning this specific item to the bottom of the row. -->
+    <div class="flex flex-col items-center self-end">
+        <!-- New box just like the coding hub one, now with the title 'Bwah VR' -->
+        <div class="flex flex-col items-center p-4 bg-gray-800 rounded-3xl shadow-2xl w-48 h-48">
+            <h2 class="text-2xl font-extrabold text-white text-center montserrat-bold pt-4">Bwah VR</h2>
+            <p class="text-xs text-gray-400 text-center mt-2">Cool VR game! (Based on GAG)</p>
+            <!-- New green box with "Join" text, now at the bottom -->
+            <a href="https://discord.gg/B5MPGFQE3N" class="text-white rounded-md shadow-md px-2 py-1 mt-auto w-full text-center" style="background-color: #228B22;">
+                Join
+            </a>
+        </div>
+        <!-- The new vertical white line to connect the two boxes -->
+        <div class="bg-white w-px h-4 my-2"></div>
+        <!-- The new rounded rectangle button with the Meta logo and centered text -->
+        <!-- The flex container now uses `flex-col` to stack the icon and text vertically. -->
+        <a href="https://www.meta.com/en-gb/experiences/bwah/9756772107679490/?srsltid=AfmBOooyLk3Gm9ZT7gX3Ez-L78KAo3Kn8duTBAKAsxWy7Oq53bhJhSCD" class="h-12 w-28 px-2 py-2 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full shadow-lg flex flex-col items-center justify-center text-white transform transition-transform hover:scale-110">
+            <!-- Meta logo icon -->
+            <i class="fa-brands fa-meta text-2xl"></i>
+            <!-- Meta text in dark blue, now centered below the icon -->
+            <!-- The 'M' is now capitalized and the text size is increased to text-xl -->
+            <span class="text-blue-900 font-bold text-xl">Meta</span>
+        </a>
+    </div>
+
+    <!-- First existing box with a small rounded box at the top and Discord link -->
+    <div class="flex flex-col items-center relative pt-8 px-8 pb-4 bg-gray-800 rounded-3xl shadow-2xl max-w-sm w-full">
+        <!-- The height of this box is now 'h-12' instead of 'h-24' -->
+        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-12 bg-gray-700 rounded-xl shadow-lg flex items-center justify-center p-2">
+            <p class="montserrat-bold text-gray-400 text-base text-center">
+                The Staff are Nice in this server!
+            </p>
+        </div>
+        <h1 class="text-3xl font-extrabold mb-4 text-center mt-12">Join GTAG Editing Server</h1>
+        <p class="text-lg text-gray-400 mb-2 text-center">
+            In This Server, There Are Assets In the Channel Called "Assets" and sounds inside of "sounds"
+        </p>
+        <a href="https://discord.gg/QGVxCcuV3T"
+           class="bg-[#7289d9] text-white w-12 h-12 rounded-full shadow-lg hover:bg-[#677bcc] transition-colors duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#7289d9] focus:ring-opacity-50 flex items-center justify-center text-2xl">
+            <i class="fab fa-discord"></i>
+        </a>
+    </div>
+
+    <!-- Second existing box with a small rounded box at the top and Discord link -->
+    <div class="flex flex-col items-center relative pt-8 px-8 pb-4 bg-gray-800 rounded-3xl shadow-2xl max-w-sm w-full">
+        <!-- The height of this box is now 'h-12' instead of 'h-24' -->
+        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-12 bg-gray-700 rounded-xl shadow-lg flex items-center justify-center p-2">
+            <p class="montserrat-bold text-gray-400 text-base text-center">
+                I am Community Manager In this server!
+            </p>
+        </div>
+        <h1 class="text-3xl font-extrabold mb-4 text-center mt-12">Join The GTCC Server</h1>
+        <p class="text-lg text-gray-400 mb-2 text-center">
+            In This Server, There Are Large Content Creators Such As CJ And Official Lemon.
+        </p>
+        <a href="https://discord.gg/NT9qR4jWCb"
+           class="bg-[#7289d9] text-white w-12 h-12 rounded-full shadow-lg hover:bg-[#677bcc] transition-colors duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#7289d9] focus:ring-opacity-50 flex items-center justify-center text-2xl">
+            <i class="fab fa-discord"></i>
+        </a>
+    </div>
+
+    <!-- The original "Coding Hub!" box -->
+    <div class="flex flex-col items-center p-4 bg-gray-800 rounded-3xl shadow-2xl w-48 h-48">
+        <h2 class="text-2xl font-extrabold text-white text-center montserrat-bold pt-4">Coding Hub!</h2>
+        <p class="text-sm text-gray-400 text-center mt-2">This Is Owned By EggInVR.</p>
+        <div class="text-white rounded-md shadow-md px-2 py-1 mt-auto w-full text-center" style="background-color: #228B22;">
+            Join
+        </div>
+    </div>
+
+</div>
+
+<!-- Added new text block at the bottom -->
+<div class="absolute bottom-4 left-0 right-0 text-center">
+    <p class="montserrat-bold text-gray-300 text-sm">
+        This Was Made, Created, and Developed By Unc Fella. (My Discord is "turbotaggers_Fella") Dm me with any changes you think should be made.
+    </p>
+</div>
+
+</body>
+</html>
